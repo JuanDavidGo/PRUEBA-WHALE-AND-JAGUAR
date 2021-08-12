@@ -10,9 +10,10 @@ pip install requiremets.txt
 python app.py
 ```
 # SERVICIO PORTABLE
-### Para usar el servicio desde cualquier sistema operativo se dockerizó la aplicación, para bajar la imagen de docker se debe ejecutar el comando
+### Para usar el servicio desde cualquier sistema operativo se dockerizó la aplicación, para bajar y correr la imagen de docker se deben ejecutar los siguientes comandos
 ```
 docker pull juandavidgo/prueba:latest
+docker run --network="host" juandavidgo/prueba:latest
 ```
 El servicio estará corriendo y solo es necesario abrir el link que proporciona la consola
 ![image](https://user-images.githubusercontent.com/24253618/129129059-d33aefb4-2ab3-4a2a-99ba-22a05fc11598.png)
