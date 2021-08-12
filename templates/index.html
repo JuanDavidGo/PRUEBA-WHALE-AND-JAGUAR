@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+    <title>Verificar numero tarjeta</title>
+</head>
+<body>
+
+    <div class="card">
+        <div class="card-header">
+          <h2>Verificar numero de tarjeta</h2>
+        </div>
+        <div class="card-body">
+          <form method="post">
+            <label for="card-number">Ingrese el numero de la tarjeta:</label>
+            <input name="card-number" type="text" placeholder="Numero de tarjeta">
+            <button type="submit" value="submit">Verificar</button>
+          </form>
+        </div>
+      </div>
+    
+</body>
+</html>
