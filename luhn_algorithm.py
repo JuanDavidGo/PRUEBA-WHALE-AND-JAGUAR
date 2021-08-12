@@ -1,5 +1,3 @@
-from os import nice
-
 def luhn_algorithm(card_number):
 
     # reverse the credit card number

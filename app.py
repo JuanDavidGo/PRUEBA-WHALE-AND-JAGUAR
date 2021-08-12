@@ -25,6 +25,7 @@ def verify(card_number):
         
         return render_template("credit_card.html", message = "El numero de la tarjeta contiene letras")
 
-app.run()
+if __name__ == "__main__":
+    app.run(debug = True, host='0.0.0.0', port='5000')
 
 
